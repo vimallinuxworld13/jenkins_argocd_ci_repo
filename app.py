@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def lw():
-    print("welcome to LW first..")
+    return("welcome to LW first..")
